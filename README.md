@@ -6,6 +6,8 @@
 Download `ColorizeArtistic_gen.pth` pretrained weights from [original repo-pretrained weights](https://github.com/ArielReplicate/DeOldify#pretrained-weights) 
 and copy to `DeOldify/models`.
 
+Add `DeOldify.` after cloning the submodule. My way was to try to run function and see where there is an import error.  
+
 Run using `functions-framework`. [link to tutorial](https://cloud.google.com/functions/docs/running/function-frameworks#functions-local-ff-configure-python).
 Run command `functions-framework --target=transformed_image` in main directory to get transformed image at localhost:8080.
 Run command `functions-framework --target=original_image` in main directory to get original image at localhost:8080. 
